@@ -1,188 +1,360 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
 
-<body>
-    <section class="Home">
-        <nav>
-            <div class="logo">
-                <img src="eduLog.jpg" width="500px">
-            </div>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="https://www.edwiseinternational.com/eads/uk/index.aspx?gclid=Cj0KCQiAi8KfBhCuARIsADp-A54vEjoMfb7xTSx1MPK8MH5GhUibt6Q83beSWh0CytgFmpWD_D291ZUaAi6sEALw_wcB">About</a></li>
-                <li><a href="https://www.jamboreeindia.com/new-landing-pages/study-in-uk/?Source=GC-GoogleAdwords-StudyinUK&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55zVtGptXMO7VVHPBQ7mtp-LM63NpH1eLFHzErHK6EzaByUYs8xbIQaAnU4EALw_wcB">Courses</a></li>
-                <li><a href="#https://www.jamboreeindia.com/new-landing-pages/study-in-uk/?Source=GC-GoogleAdwords-StudyinUK&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55zVtGptXMO7VVHPBQ7mtp-LM63NpH1eLFHzErHK6EzaByUYs8xbIQaAnU4EALw_wcB">Blog</a></li>
-                <li><a href="https://leverageedu.com/admissions/univalley-study-in-uk-consultant/?utm_source=Google&utm_medium=Search&utm_campaign=Sok_Search_Univalley_23-03-21&utm_adgroup={adgroupname}&utm_channel=ppc&adgroupid=143303302961&campaignid=12606161440&utm_term=university%20of%20london&ad=638125590911&mt=b&adpos=&gclid=Cj0KCQiAi8KfBhCuARIsADp-A542Zq72SUcDQaFbL3a-_TN3m2-RbkTyz1Kh3ZDCEGxnTw1cMRk7UAcaAm_YEALw_wcB">Contact</a></li>
-                
-            </ul>
+section{
+    width:100%;
+    height: 100vh;
+}
+.Home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(uni.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    margin-right: 40%;
+}
 
-</nav>
-<div class="text-box"> 
-    <h1>World's Biggest University</h1>
-    <p>The university was established in 1922 and has
-         since become India's largest institution of higher 
-        learning and <br> one of the largest in the world,
-         with over 132,000 students.</p>
-     <a href="" class="hero-btn"><h3>Visit Us To know More</h3></a>
-    </div>
-    </section>
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Asperiores harum veniam commodi maxime expedita cupiditate nostrum aliquid est doloremque dolore odio,
-                     debitis fugit, blanditiis nemo. Id suscipit accusantium ea sequi.</p>
-            </div>
-            <div class="course-col">
-                <h3>Degree</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Asperiores harum veniam commodi maxime expedita cupiditate nostrum aliquid est doloremque dolore odio,
-                     debitis fugit, blanditiis nemo. Id suscipit accusantium ea sequi.</p>
-        </div>
-        <div class="course-col">
-            <h3>Post Graduation</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Asperiores harum veniam commodi maxime expedita cupiditate nostrum aliquid est doloremque dolore odio,
-                 debitis fugit, blanditiis nemo. Id suscipit accusantium ea sequi.</p>       
-                </div>
-        </div>
-        
-        <p>National Certificate Courses. National Diploma Courses. Short courses.<br> Courses accredited by professional bodies – these are often aimed at preparing students for the professional body's exams</p>
-        <br>
-        <p>This degree is viewed as one of the easiest in the UK because of the nature of the content which you have to learn <br> as well as the fact that entry requirements for courses don't tend to be very high, and specific subjects are often not required.</p>
-        <br>
-        <p>To be eligible for a PR in UK after study, you must be in possession of a valid UK visa and must fulfill the eligibility requirements. Consider the details below:<br> If you have been in the UK for 5 years and have fulfilled one of the following conditions, you can apply for PR in UK: Indefinite leave to remain in the UK.</p>
-    </section>
-    <section class="campus">
-        <h1>Our Global Campus</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <div class="row">
-        <div class="campus-col">
-            <img src="londonU.jpg">
-            <div class="layer">
-                <h3>LONDON</h3>
-            </div>
-        </div>
-        <div class="campus-col">
-            <img src="Newyork.jpg">
-            <div class="layer">
-                <h3>NEW YORK</h3>
-            </div>
-        </div>
-        <div class="campus-col">
-            <img src="washig.jpg">
-            <div class="layer">
-                <h3>WASHINGTON</h3>
-            </div>
-        </div>
-     </div>
-      <p>It is home to 18 universities in total, according to the QS World University Rankings 2022.<br> These are led by Imperial College London, which ranks in seventh place globally. Close behind this is University College London (UCL), in joint eighth this year.</p>
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: gray;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+    z-index: 1000;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.2s linear;
+}
+
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+section nav ul li a:hover::after{
+    width: 100%;
+}
+section nav ul li a:hover{
+    color: #fac031;
+}
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+@media(max-width:700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-link ul li{
+        display: block;
+    }
+    .nav-link{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: pink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
+@media (max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+   width: 100%;
+   display: block;
+   
+} 
+@media (max-width:900px){
+.campus{
+    display: block;
+}
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(94, 53, 87, 0.7);
+
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: wheat;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+bottom: 49%;
+opacity: 1;
+}
+
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
     
-    <p>Generally, there is no free tuition university education at any level in the UK.<br> But there are some clever ways to considerably reduce your tuition fees and living expenses, so you can study at low to no cost.</p>
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonials-col{
+flex-basis: 44%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+background: pink;
+padding: 25px;
+cursor: pointer;
+display: flex;
+}
+.testimonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
+.testimonials-col p{
+    padding: 0;
+}
+.testimonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+    padding: 10px 0;
+}
 
-<p>NYU has been an innovator in higher education, reaching out to an emerging middle class <br> embracing an urban identity and professional focus, and promoting a global vision that informs its 19 schools and colleges.</p>
-    </section>
-    <section class="facilities">
-        <h1>Our Facilities</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <div class="row">
-            <div class="facilities-col">
-                <img src="libr.jpg">
-                <h3>World Class Library</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Eum expedita excepturi cumque tempore dolores nobis eius.</p>
-            </div>
-            <div class="facilities-col">
-                <img src="play.jpg">
-                <h3>Largest Play Ground</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Eum expedita excepturi cumque tempore dolores nobis eius.</p>
-            </div>
-            <div class="facilities-col">
-                <img src="cafe.jpg">
-                <h3>Tasty and Healthy Food</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Eum expedita excepturi cumque tempore dolores nobis eius.</p>
-            </div>
-        </div>
-       <p>NYU has over 400 clubs and organizations, 21 varsity sports, 21 club sports, a wide range of intramural teams <br> musical and choral performance groups, and many community service and leadership opportunities available to you outside of the classroom.</p>
-    </section>
-    <section class="testimonials">
-        <h1>What Our Students Says</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div class="row">
-            <div class="testimonials-col">
-                <img src="men.jpg">
-            <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea nam facilis explicabo. Voluptatum, incidunt voluptas.
-                 Repellat quo, dolorum itaque neque, veniam vitae, 
-                 voluptatum praesentium labore sed id perferendis vel.</p>
-                 <h3>David</h3>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 
-        </div>
-    </div>
-    <div class="testimonials-col">
-        <img src="menL.jpg">
-    <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea nam facilis explicabo. Voluptatum, incidunt voluptas.
-         Repellat quo, dolorum itaque neque, veniam vitae, 
-         voluptatum praesentium labore sed id perferendis vel.</p>
-         <h3>Maxwell</h3>
-         <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star-half"></i>
-</div>
-</div>
-</div>
+.testimonials-col .fa{
+    color: red;
+    padding: 20px 0;
+}
+
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+.cta{
+    margin: 100px auto;
+    width: 90%;
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(office.jpg);
+     background-position: center;
+     background-size: cover;
+     border-radius:10px;
+     text-align: center;
+     padding:100px 0;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;*/
+}
+.cta h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width: 700px){
+    .cta{
+        font-size: 24px;
         
-</section>  
-<section class="cta">
-    <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
-</section> 
-<section class="footer">
-    <h3>About Us</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quod totam amet deserunt magni laborum doloremque 
-        eveniet reiciendis debitis maiores perferendis,<br>
-         incidunt, soluta ipsum exercitationem esse, 
-         cum voluptatibus corporis qui?</p>
-<div class="icons">
-    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-</div>
-<p>Made With <i class="fa fa-heart-o"></i>By Nitin Kumar</p>
-<p>
-    Study Abroad Scholarships for colleges are a boon to international students willing to Study in UK. Although there are no Tuition Free Universities in UK,
-   <br>  there are many private and government scholarships for international students in UK.</p>
-<p>London Met were winners of the Gold Award in 2016 in an award scheme recognising carbon reduction and wider environmental achievements in Islington's business community. 
-    <br>In the 2015 PSS Awards,London Metropolitan won the Most Sustainable Public Sector Project – Best Energy Management award.</p>
+    }
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
 
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+color: #f44336;
+margin: 0 13px;
+cursor: pointer;
+padding: 30px 0;
 
-<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-<a href="#"><i class="fa-brands fa-github"></i></a>
-<a href="#"><i class="fa-brands fa-linkedin"></i></a>
-<a href="#"><i class="fa-brands fa-google"></i></a>
-<h4>CONTACT : +44 20 7423 0000</h4>
-<h4>Email Address : alumni@londonmet.ac.uk</h4>
- </section>
-</body>
-</html>
+}
+
+.fa-heart-o{
+    color: #f44336;
+
+    
+}
